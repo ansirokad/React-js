@@ -1,16 +1,103 @@
-# React + Vite
+# 📚 Book Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and professional **Book Collection Website** built using **React.js**.
+This project displays a collection of books with their title, author, price, cover image, and description.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📖 Display multiple books
+- 🖼️ Book cover images
+- ✍️ Author information
+- 💰 Book prices
+- 📝 Book descriptions
+- 🧩 Reusable React components
+- 📱 Simple and clean user interface
+- 🔗 Data passed using React Props
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- JSX
+- CSS
+- HTML
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Book-Collection/
+- 📁 public/
+- 📁 src/
+    - 📁 assets/
+        - 🖼️ logo.png
+    - 📁 components/
+        - 📄 Header.jsx
+        - 📄 Home.jsx
+        - 📄 Footer.jsx
+    - 📁 style/
+        - 🎨 Home.css
+
+    - 📄 App.jsx
+    - 🎨 App.css
+    - 📄 main.jsx
+
+- 📄 index.html
+- 📦 package.json
+- 🔒 package-lock.json
+- 📖 README.md
+
+## 🧩 Components
+
+### Header
+
+The Header component contains:
+
+- Website logo
+- Home menu
+- About menu
+- Contact Us menu
+- Service menu
+
+### Home
+
+The Home component receives book data using **Props**.
+
+<!-- ```jsx
+<Home mydata={books} />
+``` -->
+
+The `map()` method is used to display every book dynamically.
+
+Each book contains:
+
+- Book name
+- Image
+- Author
+- Price
+- Description
+
+### Footer
+
+The Footer component displays the copyright information at the bottom of the website.
+
+## 💡 React Concepts Used
+
+This project demonstrates the following React concepts:
+
+- Components
+- JSX
+- Props
+- Arrays
+- `map()` method
+- Inline Styling
+- CSS
+- Import and Export
+
+## 📷 Screensort
+
+![Book Image](book.jpg)
+![Book Image](book2.jpg)
+
+## 🔗 Video Link
+
+https://drive.google.com/file/d/1GR7ER_L4JYZtXNM-AGS5UeG4XJa_Tblh/view?usp=sharing
