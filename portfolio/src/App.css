@@ -3,15 +3,147 @@
     padding: 0;
     box-sizing: border-box;
 }
-.hero-section{
+
+.hero-section {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.608),rgba(0, 0, 0, 0.534)),url(./assets/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.608), rgba(0, 0, 0, 0.534)), url(./assets/background.png);
     background-size: cover;
     background-position: center;
 }
-.heading{
+
+.heading {
     display: inline-block;
-     width: fit-content;
-    background: linear-gradient(90deg,#6b286d,#43255f);
+    width: fit-content;
+    background: linear-gradient(90deg, #6b286d, #43255f);
     border: 1px solid white;
 }
+
+.skill-section {
+    background: linear-gradient(90deg,
+            #32134d 0%,
+            #21163f 35%,
+            #15142a 70%,
+            #111118 100%);
+}
+
+.skill-section .skills {
+    display: grid;
+    gap: 25px;
+    position: relative;
+    top: -50px;
+    border-radius: 20px;
+    padding: 20px 40px 50px 30px;
+    background: #111111;
+    color: white;
+}
+
+
+.progress-bar {
+    background: linear-gradient(45deg,
+            #d13fa5,
+            #9b2fc4,
+            #652be8,
+            #652be8);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.cards img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards div {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+
+.cards h4 {
+    padding: 2px 10px;
+
+}
+
+.cards p {
+    padding: 0px 10px;
+}
+
+.contact-section {
+    background: linear-gradient(45deg,
+            #d13fa5,
+            #9b2fc4,
+            #652be8,
+            #652be8);
+}
+
+
+.inpt {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inpt input,.inpt textarea {
+    border: 1px solid rgba(229, 229, 229, 0.896);
+    background: rgba(255, 255, 255, 0.175);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+}
+.contact-section button{
+    width: 25%;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.sub{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    border-radius: 20px;
+
+    
+}
+
+.sub input{
+        border: none;
+        font-size:18px ;
+}
+
+.submit-btn{
+    background: linear-gradient(90deg,
+            #32134d ,
+            #21163f ,
+            #15142a 
+           );
+           border-radius: 20px;
+           padding: 20px 35px;
+           font-size: 18px;
+           color: white;
+}
+
+.mail{
+    background:none;
+    margin: 20px 0;
+    
+}
+.subscribe main:nth-child(2){
+    border: 1px solid  #32134d; 
+    border-radius: 20px;
+    padding: 3px;
+}
+/* footer{
+    position: relative;
+    top: -50px;
+    padding: 80px;
+    background-color: black;
+} */
