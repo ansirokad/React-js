@@ -48,10 +48,11 @@ header ul li a:hover {
 
 .skill-section {
     background: linear-gradient(90deg,
-            #32134d 0%,
-            #21163f 35%,
-            #15142a 70%,
-            #111118 100%);
+            #391657 0%,
+            #2d0d44 0%,
+            #26184b 35%,
+            #1b1a3f 70%,
+            #141421 100%);
 }
 
 .skill-section .skills {
@@ -114,12 +115,14 @@ header ul li a:hover {
 }
 
 .contact-section {
-    background: linear-gradient(45deg,
-            #541d44,
-            #621e7c,
-            #32166f,
-            #260e5e,
-            #18034a);
+    background: linear-gradient(90deg,
+            #391657 0%,
+            #2d0d44 0%,
+            #26184b 35%,
+            #251450 35%,
+            #1b1a3f 70%,
+            #1a1940 70%,
+            #161621 100%);
     padding-bottom: 100px;
 }
 
