@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+
+nav {
+    padding: 10px 18px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header .icon a {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f42d;
+    color: #fff;
+    font-size: 20px;
+}
+
+header ul li a {
+    color: #969696;
+}
+
+header ul li a:hover {
+    color: white;
+}
+
 .hero-section {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.608), rgba(0, 0, 0, 0.534)), url(./assets/background.png);
@@ -30,7 +58,7 @@
     display: grid;
     gap: 25px;
     position: relative;
-    top: -50px;
+    top: -70px;
     border-radius: 20px;
     padding: 20px 40px 50px 30px;
     background: #111111;
@@ -46,6 +74,12 @@
             #652be8);
 }
 
+
+.project-section {
+    background-color: #111118;
+}
+
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -59,10 +93,16 @@
 }
 
 .cards div {
+    background-color: transparent;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 5px rgba(92, 92, 92, 0.716);
+    transition: all 0.3s ease-in-out 1;
 }
 
+.cards div:hover {
+    transform: translateY(-4px);
+    box-shadow: 2px 2px 5px rgba(101, 101, 101);
+}
 
 .cards h4 {
     padding: 2px 10px;
@@ -75,12 +115,13 @@
 
 .contact-section {
     background: linear-gradient(45deg,
-            #d13fa5,
-            #9b2fc4,
-            #652be8,
-            #652be8);
+            #541d44,
+            #621e7c,
+            #32166f,
+            #260e5e,
+            #18034a);
+    padding-bottom: 100px;
 }
-
 
 .inpt {
     display: flex;
@@ -88,14 +129,22 @@
     gap: 20px;
 }
 
-.inpt input,.inpt textarea {
+.inpt input,
+.inpt textarea {
     border: 1px solid rgba(229, 229, 229, 0.896);
     background: rgba(255, 255, 255, 0.175);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 20px;
+    outline: none;
 }
-.contact-section button{
+
+.inpt input::placeholder,
+.inpt textarea::placeholder {
+    color: white;
+}
+
+.contact-section button {
     width: 25%;
     border: none;
     padding: 10px 20px;
@@ -103,47 +152,70 @@
     font-size: 20px;
     margin-top: 25px;
 }
+.subscribe{
+     background: #111118;
+}
 
-.sub{
+.sub {
     background-color: white;
-    padding: 20px;
     position: relative;
-    top: -20px;
+    top: -60px;
     border-radius: 20px;
-
-    
+    padding: 50px 10% !important;
 }
 
-.sub input{
-        border: none;
-        font-size:18px ;
+.sub input {
+    border: none;
+    outline: none;
+    font-size: 19px;
+    height: 100%;
 }
 
-.submit-btn{
+.subscribe-form {
+    height: 80px;
+    margin: auto 0;
+}
+
+.submit-btn {
     background: linear-gradient(90deg,
-            #32134d ,
-            #21163f ,
-            #15142a 
-           );
-           border-radius: 20px;
-           padding: 20px 35px;
-           font-size: 18px;
-           color: white;
+            #892E7E,
+            #6B2C9A,
+            #4F2AA7);
+    border-radius: 20px;
+    padding: 20px 50px;
+    font-weight: 500;
+    color: white;
 }
 
-.mail{
-    background:none;
-    margin: 20px 0;
-    
+.mail {
+    background: none;
+    padding-left: 15px;
+    font-size: 22px !important;
 }
-.subscribe main:nth-child(2){
-    border: 1px solid  #32134d; 
+
+.subscribe main:nth-child(2) {
+    border: 1px solid #32134d;
     border-radius: 20px;
     padding: 3px;
 }
-/* footer{
-    position: relative;
-    top: -50px;
-    padding: 80px;
-    background-color: black;
-} */
+
+footer{
+  background: #111118;
+  padding: 0px 60px;
+}
+
+
+
+
+footer a {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f42d;
+    color: #fff;
+    font-size: 20px;
+}

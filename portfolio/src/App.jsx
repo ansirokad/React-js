@@ -1,4 +1,5 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import logo from "./assets/portfoliologo.png"
 import robot from "./assets/robot.png";
 import product from "./assets/product.jpg";
 import bootstrap from "./assets/bootstrap.jpg";
@@ -12,42 +13,36 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="position-absolute w-100 p-3 ">
-        <nav className="container d-flex justify-content-between align-items-center fixed-top bg-black">
-          <div className="fw-bold fs-2 text-white">LOGO</div>
+      <header className="position-absolute w-100 ">
+        <nav className="container d-flex justify-content-between align-items-center fixed-top bg-black ">
+          <img className="p-0" width={160}  src={logo} alt="" />
           <section className="d-flex gap-3">
             <div className="d-flex align-items-center">
               <ul className=" list-unstyled d-flex align-items-center gap-4 fs-5 m-0">
                 <li>
-                  <a href="#home" className="text-decoration-none text-white">
+                  <a href="#home" className="text-decoration-none ">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#skill" className="text-decoration-none text-white">
+                  <a href="#skill" className="text-decoration-none ">
                     Skill
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#project"
-                    className="text-decoration-none text-white"
-                  >
+                  <a href="#project" className="text-decoration-none ">
                     Project
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#contact"
-                    className="text-decoration-none text-white"
-                  >
+                  <a href="#contact" className="text-decoration-none">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="d-flex gap-3">
-              <ul className="list-unstyled d-flex align-items-center gap-2 fs-5 m-0">
+            <div className="icon d-flex gap-3">
+              <ul className="list-unstyled d-flex  align-items-center gap-2 fs-5 m-0">
                 <li>
                   <a href="#" className="text-decoration-none text-white">
                     <FaLinkedin />
@@ -64,7 +59,7 @@ function App() {
                   </a>
                 </li>
               </ul>
-              <button className="btn btn-outline-light">Let's Connect</button>
+              <button className="btn btn-outline-light fs-5">Let's Connect</button>
             </div>
           </section>
         </nav>
@@ -87,26 +82,6 @@ function App() {
           </div>
         </div>
       </section>
-      {/* <section>
-        <div>
-          <h1>About</h1>
-          <div>
-            <main>
-              <img width={150} src={robot} alt="" />
-            </main>
-            <main>
-              <p>
-                Hello! I am a passionate full stack web developer. I specialize
-                in HTML, CSS, Bootstrap and JavaScript.
-              </p>
-              <p>
-                I aim to build user-friendly and simple to use website that
-                brings ideas and make services easy to use.
-              </p>
-            </main>
-          </div>
-        </div>
-      </section> */}
 
       <section id="skill" className="skill-section ">
         <div className="container skills">
@@ -117,24 +92,24 @@ function App() {
               <div className="col-4">
                 <h5>HTML</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "90%" }}>
-                    90%
+                  <div className=" progress-bar" style={{ width: "89%" }}>
+                    89%
                   </div>
                 </div>
               </div>
               <div className="col-4">
                 <h5>CSS</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "95%" }}>
-                    95%
+                  <div className=" progress-bar" style={{ width: "89%" }}>
+                    89%
                   </div>
                 </div>
               </div>
               <div className="col-4">
                 <h5>JavaScript</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "90%" }}>
-                    90%
+                  <div className=" progress-bar" style={{ width: "87%" }}>
+                    87%
                   </div>
                 </div>
               </div>
@@ -143,24 +118,24 @@ function App() {
               <div className="col-4">
                 <h5>BootStrap</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "90%" }}>
-                    90%
+                  <div className=" progress-bar" style={{ width: "89%" }}>
+                    89%
                   </div>
                 </div>
               </div>
               <div className="col-4">
-                <h5>C</h5>
+                <h5>C Language</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "90%" }}>
-                    90%
+                  <div className=" progress-bar" style={{ width: "91%" }}>
+                    91%
                   </div>
                 </div>
               </div>
               <div className="col-4">
                 <h5>C++</h5>
                 <div className="progress">
-                  <div className=" progress-bar" style={{ width: "90%" }}>
-                    90%
+                  <div className=" progress-bar" style={{ width: "81%" }}>
+                    81%
                   </div>
                 </div>
               </div>
@@ -169,7 +144,7 @@ function App() {
         </div>
       </section>
 
-      <section id="project" className="project-section bg-black text-white">
+      <section id="project" className="project-section  text-white">
         <div className="d-grid gap-2 p-5">
           <h1 className="d-flex justify-content-center p-3 h1 fw-bold">
             Projects
@@ -179,7 +154,7 @@ function App() {
             <main className="d-flex gap-4 justify-content-center ">
               <div>
                 <img width={500} src={product} alt="" />
-                <h4>JS Project</h4>
+                <h4 className="mt-2">JS Project</h4>
                 <p>
                   A fully responsive e-commerce management panel built using
                   HTML, CSS and JavaScript, offering dynamic inventory actions
@@ -188,7 +163,7 @@ function App() {
               </div>
               <div>
                 <img width={500} src={weather} alt="" />
-                <h4>JS Project</h4>
+                <h4 className="mt-2">JS Project</h4>
                 <p>
                   A fully responsive weather application built using HTML, CSS
                   and JavaScript, tracking real-time data with flawless screen
@@ -197,7 +172,7 @@ function App() {
               </div>
               <div>
                 <img width={500} src={bootstrap} alt="" />
-                <h4>Bootstrap Project</h4>
+                <h4 className="mt-2">Bootstrap Project</h4>
                 <p>
                   A responsive Bootstrap Proejct built using HTML and CSS. which
                   tells the bootstarp is responsive from the start.
@@ -207,7 +182,7 @@ function App() {
             <main className="d-flex gap-4 justify-content-center ">
               <div>
                 <img width={500} src={techpro} alt="" />
-                <h4>CSS Project</h4>
+                <h4 className="mt-2">CSS Project</h4>
                 <p>
                   A responsive CSS Project built using HTML and CSS. which tells
                   the discover the future of innovation.
@@ -215,7 +190,7 @@ function App() {
               </div>
               <div>
                 <img width={500} src={rental} alt="" />
-                <h4>CSS Project</h4>
+                <h4 className="mt-2">CSS Project</h4>
                 <p>
                   A responsive CSS Proejct built using HTML and CSS. which tells
                   it to booking by offering online for customer.
@@ -223,7 +198,7 @@ function App() {
               </div>
               <div>
                 <img width={500} src={fabric} alt="" />
-                <h4>CSS Project</h4>
+                <h4 className="mt-2">CSS Project</h4>
                 <p>
                   A responsive CSS Project built using HTML and CSS . which
                   tells the Textile-collections various discount and offers are
@@ -252,39 +227,66 @@ function App() {
             </div>
             <div className="d-flex gap-3">
               <main>
-              <input type="email" placeholder="Email Address" />
-            </main>
-            <main>
-              <input type="number" placeholder="Phone No." />
-            </main>
+                <input type="email" placeholder="Email Address" />
+              </main>
+              <main>
+                <input type="number" placeholder="Phone No." />
+              </main>
             </div>
-            <textarea  placeholder="Message" rows={5} name="" id=""></textarea>
+            <textarea placeholder="Message" rows={5} name="" id=""></textarea>
             <button type="submit">Send</button>
           </div>
-        
-          
         </main>
       </section>
 
-     <section className="subscribe">
-          <div className="container sub d-flex gap-5 justify-content-center">
-            <main>
-              <h4>Subscribe to our Newsletter & Never miss latest updates</h4>
-            </main>
-            <main className="d-flex">
-              <div>
-                <input className="mail" type="text" placeholder="Email Adderess" />
-              </div>
-              <div>
-                <input className="submit-btn" type="submit" placeholder="Submit" />
-              </div>
-            </main>
-          </div>
-     </section>
+      <section className="subscribe">
+        <div className="container sub d-flex gap-5 ">
+          <main className="flex-grow-1 ">
+            <h4 className="h2 fw-bold">
+              Subscribe to our <br /> Newsletter <br /> & Never miss latest{" "}
+              <br /> updates
+            </h4>
+          </main>
+          <main className="d-flex subscribe-form justify-content-between   flex-grow-1 ">
+            <div>
+              <input
+                className="mail"
+                type="text"
+                placeholder="Email Adderess"
+              />
+            </div>
+            <div>
+              <input
+                className="submit-btn"
+                type="submit"
+                placeholder="Submit"
+              />
+            </div>
+          </main>
+        </div>
+      </section>
 
-     <footer>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero provident eum alias molestias consequuntur cumque ex, aliquid, quod, sequi fugit maiores tenetur itaque asperiores commodi unde in cupiditate voluptatum est blanditiis error? Placeat ullam dicta aut suscipit quo quos repellendus, libero sit dolor voluptates nisi nulla impedit. Consequuntur quisquam quae excepturi similique nobis sapiente rerum unde est voluptas assumenda. Nulla, sit? Voluptatem veritatis exercitationem repudiandae consequatur officiis quasi vitae nemo. Iure adipisci, repellendus iste, nam accusamus autem neque cumque quasi quaerat libero vitae, nisi amet velit veritatis laboriosam vel. Quasi optio beatae perferendis labore quam nihil ad explicabo magnam?</p>
-     </footer>
+      <footer>
+        <main className="d-flex justify-content-between p-4 align-items-center">
+          <div>
+            <img className="p-0" width={150}  src={logo} alt="" />
+          </div>
+          <aside className="d-grid gap-2 ">
+            <div className="d-flex gap-3 justify-content-end">
+              <a href="#">
+                <FaLinkedin />
+              </a>
+              <a href="#">
+                <FaInstagram />
+              </a>
+              <a href="#">
+                <FaFacebook />
+              </a>
+            </div>
+            <p className="text-white">Copyright 2026. All Rights Reserved</p>
+          </aside>
+        </main>
+      </footer>
     </>
   );
 }
