@@ -78,4 +78,4 @@ This portfolio showcases my skills, projects, and provides a contact section for
 
 ## 🔗 Video Link
 
-https://drive.google.com/file/d/1GR7ER_L4JYZtXNM-AGS5UeG4XJa_Tblh/view?usp=sharing
+https://drive.google.com/file/d/1m-06vPQ0uW1BDbHztlP6UO_4Y0Xj0Cv-/view?usp=sharing
