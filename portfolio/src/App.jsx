@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "./assets/portfoliologo.png"
+import logo from "./assets/portfoliologo.png";
 import robot from "./assets/robot.png";
 import product from "./assets/product.jpg";
 import bootstrap from "./assets/bootstrap.jpg";
@@ -15,7 +15,7 @@ function App() {
     <>
       <header className="position-absolute w-100 ">
         <nav className="container d-flex justify-content-between align-items-center fixed-top bg-black ">
-          <img className="p-0" width={160}  src={logo} alt="" />
+          <img className="p-0" width={160} src={logo} alt="" />
           <section className="d-flex gap-3">
             <div className="d-flex align-items-center">
               <ul className=" list-unstyled d-flex align-items-center gap-4 fs-5 m-0">
@@ -59,7 +59,9 @@ function App() {
                   </a>
                 </li>
               </ul>
-              <button className="btn btn-outline-light fs-5">Let's Connect</button>
+              <button className="btn btn-outline-light fs-5">
+                Let's Connect
+              </button>
             </div>
           </section>
         </nav>
@@ -269,7 +271,7 @@ function App() {
       <footer>
         <main className="d-flex justify-content-between p-4 align-items-center">
           <div>
-            <img className="p-0" width={150}  src={logo} alt="" />
+            <img className="p-0" width={150} src={logo} alt="" />
           </div>
           <aside className="d-grid gap-2 ">
             <div className="d-flex gap-3 justify-content-end">
