@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Layout */
+section {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    min-height: 100vh;
+}
+
+/* Left Side - Header */
+section > div {
+    width: 25%;
+}
+
+/* Right Side - Routes */
+section > main {
+    width: 75%;
+    background-color: white;
+    min-height: 720px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+.nav-box {
+    background-color: white;
+    min-height: 720px;
+    padding: 25px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Logo */
+
+.logo-box {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-box img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+/* Menu */
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin-bottom: 15px;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: #222;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+
+/* Hover */
+
+.nav-list li a:hover {
+    background-color: #e31837;
+    color: white;
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(227, 24, 55, 0.3);
+}
+
+.home-page {
+    min-height: 720px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+
+    display: grid;
+    grid-template-columns: 45% 55%;
+    position: relative;
+}
+
+
+/* Text */
+
+.home-text {
+    padding: 100px 40px 40px 50px;
+    z-index: 2;
+}
+
+.welcome {
+    color: #e31837;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.home-text h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    color: #16243a;
+    margin-bottom: 25px;
+}
+
+.home-text h1 span {
+    color: #e31837;
+}
+
+.intro {
+    color: #667085;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 480px;
+}
+
+.home-text button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e31837;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-text button:hover {
+    background-color: #c41230;
+}
+
+
+/* Pizza Image */
+
+.home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Bottom Features */
+
+.home-features {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding: 25px 30px;
+    background-color: white;
+    border-top: 1px solid #eeeeee;
+}
+
+.home-features div {
+    width: 30%;
+    text-align: center;
+}
+
+.home-features h3 {
+    color: #16243a;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.home-features p {
+    color: #777;
+    font-size: 13px;
+}
+
+.pizza-page {
+    padding: 30px;
+}
+
+.pizza-page h1 {
+    color: #16243a;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.pizza-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pizza-card {
+    background-color: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.pizza-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+.pizza-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.pizza-info {
+    padding: 18px;
+}
+
+.pizza-info h2 {
+    color: #16243a;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.pizza-info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.pizza-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizza-bottom h3 {
+    color: #e31837;
+    font-size: 22px;
+    margin: 0;
+}
+
+.pizza-bottom button {
+    border: none;
+    background-color: #e31837;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pizza-bottom button:hover {
+    background-color: #c41230;
+}
