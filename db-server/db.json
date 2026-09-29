@@ -1,0 +1,45 @@
+{
+  "blogs": [
+    {
+      "title": "AI Trust Gap With Young Adults Could Carry a High Cost",
+      "image": "https://intelegainmainweb.azureedge.net/wp-content/uploads/2026/08/generative-AI.webp",
+      "author": " Rob Enderle",
+      "description": "A new poll finds substantial distrust of AI executives among young adults, raising questions about recruiting, regulation, data center development, and long-term technology adoption.",
+      "date": "August 24, 2026",
+      "id": "1"
+    },
+    {
+      "title": "Quntis Light Bar Glow Is an Upgrade I Never Expected",
+      "image": "https://www.technewsworld.com/wp-content/uploads/sites/3/2026/08/quntis-glow-light-bar.jpg",
+      "author": "Jack M. Germain",
+      "description": "Bill Gates sees a turbulent AI transition ahead. Rob Enderle considers the risks of increasingly autonomous systems and what it will take to keep humans in control.",
+      "date": "August 11, 2026",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "image": "https://www.hgsss.org/wp-content/uploads/RRE-2.png",
+      "title": "Race & Real Estate: How Georgism Can Fight Racism and Heal Itself",
+      "author": "Califf Cobb",
+      "description": "This course explores racism, land ownership, oligarchy, and how Georgism can promote economic equality and housing justice.",
+      "date": " September 1, 2026"
+    },
+    {
+      "id": "4",
+      "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image2-3-1536x864.png",
+      "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
+      "description": "Compact open AI models can now run reasoning and agentic tasks directly on NVIDIA Jetson. The post covers model selection, NVFP4, speculative decoding, and vLLM for better edge AI performance.",
+      "author": "Khalil BenKhaled, Aditya Sahu and Chitoku Yato",
+      "date": "Sep 04, 2026"
+    },
+    {
+      "id": "5",
+      "image": "https://webcdn.tvisha.com/data/category_images/Banking_Software_Development.jpg",
+      "title": "Banking Software Development: Core Systems, Compliance and Cost",
+      "description": "Banks need secure, reliable, and compliant technology to modernize services without disrupting daily operations.",
+      "author": "Rishika Kuna",
+      "date": "Jul 29, 2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
