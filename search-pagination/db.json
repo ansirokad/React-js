@@ -1,0 +1,68 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Future of Artificial Intelligence",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "author": "Robert Johnson",
+      "description": "Artificial Intelligence is changing the way we work, learn, and communicate in the modern world.",
+      "date": "2026-09-29"
+    },
+    {
+      "id": 2,
+      "title": "Learn React JS",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "author": "Ananya Patel",
+      "description": "React JS is a popular JavaScript library used to build fast and interactive user interfaces.",
+      "date": "2026-09-28"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Basics",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+      "author": "Rahul Sharma",
+      "description": "Learn the basic concepts of JavaScript including variables, functions, arrays, and events.",
+      "date": "2026-09-27"
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Node.js",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+      "author": "Michael Brown",
+      "description": "Node.js allows developers to build fast and scalable backend applications using JavaScript.",
+      "date": "2026-09-26"
+    },
+    {
+      "id": 5,
+      "title": "Modern CSS Techniques",
+      "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+      "author": "Daniel Smith",
+      "description": "Explore modern CSS techniques to create responsive and attractive websites.",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "title": "Getting Started with GitHub",
+      "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb",
+      "author": "James Anderson",
+      "description": "GitHub helps developers store, manage, and collaborate on software development projects.",
+      "date": "2026-09-24"
+    },
+    {
+      "id": 7,
+      "title": "Frontend Development Trends",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "author": "Sophia Miller",
+      "description": "Modern frontend development focuses on performance, accessibility, responsive layouts, and better user experiences.",
+      "date": "2026-09-23"
+    },
+    {
+      "id": 8,
+      "title": "How to Build Better Websites",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+      "author": "David Wilson",
+      "description": "Learn practical tips for creating clean, user-friendly, responsive, and professional websites.",
+      "date": "2026-09-22"
+    }
+  ]
+}

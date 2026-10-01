@@ -1,0 +1,905 @@
+
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "phone": "9876500001",
+      "department": "IT",
+      "position": "Software Developer",
+      "salary": 45000
+    },
+    {
+      "id": 2,
+      "name": "Anaya Shah",
+      "email": "anaya.shah@example.com",
+      "phone": "9876500002",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 38000
+    },
+    {
+      "id": 3,
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@example.com",
+      "phone": "9876500003",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 42000
+    },
+    {
+      "id": 4,
+      "name": "Priya Patel",
+      "email": "priya.patel@example.com",
+      "phone": "9876500004",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "salary": 40000
+    },
+    {
+      "id": 5,
+      "name": "Dev Joshi",
+      "email": "dev.joshi@example.com",
+      "phone": "9876500005",
+      "department": "IT",
+      "position": "Frontend Developer",
+      "salary": 48000
+    },
+    {
+      "id": 6,
+      "name": "Diya Desai",
+      "email": "diya.desai@example.com",
+      "phone": "9876500006",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 36000
+    },
+    {
+      "id": 7,
+      "name": "Krish Patel",
+      "email": "krish.patel@example.com",
+      "phone": "9876500007",
+      "department": "IT",
+      "position": "Backend Developer",
+      "salary": 52000
+    },
+    {
+      "id": 8,
+      "name": "Kavya Shah",
+      "email": "kavya.shah@example.com",
+      "phone": "9876500008",
+      "department": "HR",
+      "position": "Recruiter",
+      "salary": 37000
+    },
+    {
+      "id": 9,
+      "name": "Yash Mehta",
+      "email": "yash.mehta@example.com",
+      "phone": "9876500009",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "salary": 50000
+    },
+    {
+      "id": 10,
+      "name": "Mahi Patel",
+      "email": "mahi.patel@example.com",
+      "phone": "9876500010",
+      "department": "Marketing",
+      "position": "Content Writer",
+      "salary": 35000
+    },
+    {
+      "id": 11,
+      "name": "Vivaan Shah",
+      "email": "vivaan.shah@example.com",
+      "phone": "9876500011",
+      "department": "IT",
+      "position": "Full Stack Developer",
+      "salary": 60000
+    },
+    {
+      "id": 12,
+      "name": "Ishita Patel",
+      "email": "ishita.patel@example.com",
+      "phone": "9876500012",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "salary": 55000
+    },
+    {
+      "id": 13,
+      "name": "Dhruv Joshi",
+      "email": "dhruv.joshi@example.com",
+      "phone": "9876500013",
+      "department": "IT",
+      "position": "UI Developer",
+      "salary": 47000
+    },
+    {
+      "id": 14,
+      "name": "Riya Mehta",
+      "email": "riya.mehta@example.com",
+      "phone": "9876500014",
+      "department": "HR",
+      "position": "HR Manager",
+      "salary": 58000
+    },
+    {
+      "id": 15,
+      "name": "Harsh Patel",
+      "email": "harsh.patel@example.com",
+      "phone": "9876500015",
+      "department": "Finance",
+      "position": "Senior Accountant",
+      "salary": 52000
+    },
+    {
+      "id": 16,
+      "name": "Aditi Shah",
+      "email": "aditi.shah@example.com",
+      "phone": "9876500016",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "salary": 57000
+    },
+    {
+      "id": 17,
+      "name": "Manav Desai",
+      "email": "manav.desai@example.com",
+      "phone": "9876500017",
+      "department": "IT",
+      "position": "Software Engineer",
+      "salary": 54000
+    },
+    {
+      "id": 18,
+      "name": "Jiya Patel",
+      "email": "jiya.patel@example.com",
+      "phone": "9876500018",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 38000
+    },
+    {
+      "id": 19,
+      "name": "Reyansh Shah",
+      "email": "reyansh.shah@example.com",
+      "phone": "9876500019",
+      "department": "IT",
+      "position": "React Developer",
+      "salary": 55000
+    },
+    {
+      "id": 20,
+      "name": "Myra Mehta",
+      "email": "myra.mehta@example.com",
+      "phone": "9876500020",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 39000
+    },
+    {
+      "id": 21,
+      "name": "Arjun Patel",
+      "email": "arjun.patel@example.com",
+      "phone": "9876500021",
+      "department": "Finance",
+      "position": "Finance Executive",
+      "salary": 44000
+    },
+    {
+      "id": 22,
+      "name": "Nisha Shah",
+      "email": "nisha.shah@example.com",
+      "phone": "9876500022",
+      "department": "Marketing",
+      "position": "SEO Executive",
+      "salary": 41000
+    },
+    {
+      "id": 23,
+      "name": "Kunal Patel",
+      "email": "kunal.patel@example.com",
+      "phone": "9876500023",
+      "department": "IT",
+      "position": "Node.js Developer",
+      "salary": 56000
+    },
+    {
+      "id": 24,
+      "name": "Simran Desai",
+      "email": "simran.desai@example.com",
+      "phone": "9876500024",
+      "department": "Sales",
+      "position": "Sales Coordinator",
+      "salary": 37000
+    },
+    {
+      "id": 25,
+      "name": "Advik Joshi",
+      "email": "advik.joshi@example.com",
+      "phone": "9876500025",
+      "department": "IT",
+      "position": "JavaScript Developer",
+      "salary": 50000
+    },
+    {
+      "id": 26,
+      "name": "Sara Patel",
+      "email": "sara.patel@example.com",
+      "phone": "9876500026",
+      "department": "HR",
+      "position": "Recruiter",
+      "salary": 40000
+    },
+    {
+      "id": 27,
+      "name": "Om Shah",
+      "email": "om.shah@example.com",
+      "phone": "9876500027",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 43000
+    },
+    {
+      "id": 28,
+      "name": "Tanvi Mehta",
+      "email": "tanvi.mehta@example.com",
+      "phone": "9876500028",
+      "department": "Marketing",
+      "position": "Social Media Executive",
+      "salary": 36000
+    },
+    {
+      "id": 29,
+      "name": "Atharv Patel",
+      "email": "atharv.patel@example.com",
+      "phone": "9876500029",
+      "department": "IT",
+      "position": "Web Developer",
+      "salary": 46000
+    },
+    {
+      "id": 30,
+      "name": "Aanya Shah",
+      "email": "aanya.shah@example.com",
+      "phone": "9876500030",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 39000
+    },
+    {
+      "id": 31,
+      "name": "Kabir Mehta",
+      "email": "kabir.mehta@example.com",
+      "phone": "9876500031",
+      "department": "IT",
+      "position": "Python Developer",
+      "salary": 53000
+    },
+    {
+      "id": 32,
+      "name": "Ira Patel",
+      "email": "ira.patel@example.com",
+      "phone": "9876500032",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 38000
+    },
+    {
+      "id": 33,
+      "name": "Rudra Shah",
+      "email": "rudra.shah@example.com",
+      "phone": "9876500033",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "salary": 49000
+    },
+    {
+      "id": 34,
+      "name": "Navya Desai",
+      "email": "navya.desai@example.com",
+      "phone": "9876500034",
+      "department": "Marketing",
+      "position": "Brand Executive",
+      "salary": 42000
+    },
+    {
+      "id": 35,
+      "name": "Ayan Patel",
+      "email": "ayan.patel@example.com",
+      "phone": "9876500035",
+      "department": "IT",
+      "position": "MERN Developer",
+      "salary": 62000
+    },
+    {
+      "id": 36,
+      "name": "Kiara Shah",
+      "email": "kiara.shah@example.com",
+      "phone": "9876500036",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "salary": 56000
+    },
+    {
+      "id": 37,
+      "name": "Ved Mehta",
+      "email": "ved.mehta@example.com",
+      "phone": "9876500037",
+      "department": "IT",
+      "position": "Frontend Developer",
+      "salary": 49000
+    },
+    {
+      "id": 38,
+      "name": "Aarohi Patel",
+      "email": "aarohi.patel@example.com",
+      "phone": "9876500038",
+      "department": "HR",
+      "position": "HR Coordinator",
+      "salary": 36000
+    },
+    {
+      "id": 39,
+      "name": "Parth Shah",
+      "email": "parth.shah@example.com",
+      "phone": "9876500039",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 45000
+    },
+    {
+      "id": 40,
+      "name": "Shreya Mehta",
+      "email": "shreya.mehta@example.com",
+      "phone": "9876500040",
+      "department": "Marketing",
+      "position": "Content Manager",
+      "salary": 47000
+    },
+    {
+      "id": 41,
+      "name": "Rishi Patel",
+      "email": "rishi.patel@example.com",
+      "phone": "9876500041",
+      "department": "IT",
+      "position": "Backend Developer",
+      "salary": 57000
+    },
+    {
+      "id": 42,
+      "name": "Anvi Shah",
+      "email": "anvi.shah@example.com",
+      "phone": "9876500042",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 40000
+    },
+    {
+      "id": 43,
+      "name": "Samar Mehta",
+      "email": "samar.mehta@example.com",
+      "phone": "9876500043",
+      "department": "IT",
+      "position": "Software Engineer",
+      "salary": 55000
+    },
+    {
+      "id": 44,
+      "name": "Aaradhya Patel",
+      "email": "aaradhya.patel@example.com",
+      "phone": "9876500044",
+      "department": "HR",
+      "position": "HR Manager",
+      "salary": 60000
+    },
+    {
+      "id": 45,
+      "name": "Nirav Shah",
+      "email": "nirav.shah@example.com",
+      "phone": "9876500045",
+      "department": "Finance",
+      "position": "Finance Manager",
+      "salary": 65000
+    },
+    {
+      "id": 46,
+      "name": "Pooja Desai",
+      "email": "pooja.desai@example.com",
+      "phone": "9876500046",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "salary": 39000
+    },
+    {
+      "id": 47,
+      "name": "Raj Patel",
+      "email": "raj.patel@example.com",
+      "phone": "9876500047",
+      "department": "IT",
+      "position": "React Developer",
+      "salary": 58000
+    },
+    {
+      "id": 48,
+      "name": "Heena Shah",
+      "email": "heena.shah@example.com",
+      "phone": "9876500048",
+      "department": "Sales",
+      "position": "Sales Coordinator",
+      "salary": 38000
+    },
+    {
+      "id": 49,
+      "name": "Mihir Mehta",
+      "email": "mihir.mehta@example.com",
+      "phone": "9876500049",
+      "department": "IT",
+      "position": "Full Stack Developer",
+      "salary": 61000
+    },
+    {
+      "id": 50,
+      "name": "Khushi Patel",
+      "email": "khushi.patel@example.com",
+      "phone": "9876500050",
+      "department": "HR",
+      "position": "Recruiter",
+      "salary": 41000
+    },
+    {
+      "id": 51,
+      "name": "Jay Shah",
+      "email": "jay.shah@example.com",
+      "phone": "9876500051",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 46000
+    },
+    {
+      "id": 52,
+      "name": "Riddhi Mehta",
+      "email": "riddhi.mehta@example.com",
+      "phone": "9876500052",
+      "department": "Marketing",
+      "position": "SEO Manager",
+      "salary": 52000
+    },
+    {
+      "id": 53,
+      "name": "Naman Patel",
+      "email": "naman.patel@example.com",
+      "phone": "9876500053",
+      "department": "IT",
+      "position": "Java Developer",
+      "salary": 54000
+    },
+    {
+      "id": 54,
+      "name": "Mansi Shah",
+      "email": "mansi.shah@example.com",
+      "phone": "9876500054",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 37000
+    },
+    {
+      "id": 55,
+      "name": "Siddharth Mehta",
+      "email": "siddharth.mehta@example.com",
+      "phone": "9876500055",
+      "department": "IT",
+      "position": "DevOps Engineer",
+      "salary": 65000
+    },
+    {
+      "id": 56,
+      "name": "Rhea Patel",
+      "email": "rhea.patel@example.com",
+      "phone": "9876500056",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 40000
+    },
+    {
+      "id": 57,
+      "name": "Akash Shah",
+      "email": "akash.shah@example.com",
+      "phone": "9876500057",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "salary": 51000
+    },
+    {
+      "id": 58,
+      "name": "Ishani Desai",
+      "email": "ishani.desai@example.com",
+      "phone": "9876500058",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "salary": 43000
+    },
+    {
+      "id": 59,
+      "name": "Meet Patel",
+      "email": "meet.patel@example.com",
+      "phone": "9876500059",
+      "department": "IT",
+      "position": "UI/UX Developer",
+      "salary": 48000
+    },
+    {
+      "id": 60,
+      "name": "Saanvi Shah",
+      "email": "saanvi.shah@example.com",
+      "phone": "9876500060",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "salary": 58000
+    },
+    {
+      "id": 61,
+      "name": "Devansh Mehta",
+      "email": "devansh.mehta@example.com",
+      "phone": "9876500061",
+      "department": "IT",
+      "position": "Software Developer",
+      "salary": 52000
+    },
+    {
+      "id": 62,
+      "name": "Avni Patel",
+      "email": "avni.patel@example.com",
+      "phone": "9876500062",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 39000
+    },
+    {
+      "id": 63,
+      "name": "Himanshu Shah",
+      "email": "himanshu.shah@example.com",
+      "phone": "9876500063",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 44000
+    },
+    {
+      "id": 64,
+      "name": "Neha Mehta",
+      "email": "neha.mehta@example.com",
+      "phone": "9876500064",
+      "department": "Marketing",
+      "position": "Content Writer",
+      "salary": 37000
+    },
+    {
+      "id": 65,
+      "name": "Kartik Patel",
+      "email": "kartik.patel@example.com",
+      "phone": "9876500065",
+      "department": "IT",
+      "position": "Node.js Developer",
+      "salary": 57000
+    },
+    {
+      "id": 66,
+      "name": "Riya Shah",
+      "email": "riya.shah@example.com",
+      "phone": "9876500066",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 40000
+    },
+    {
+      "id": 67,
+      "name": "Soham Mehta",
+      "email": "soham.mehta@example.com",
+      "phone": "9876500067",
+      "department": "IT",
+      "position": "Frontend Developer",
+      "salary": 50000
+    },
+    {
+      "id": 68,
+      "name": "Palak Patel",
+      "email": "palak.patel@example.com",
+      "phone": "9876500068",
+      "department": "HR",
+      "position": "Recruiter",
+      "salary": 38000
+    },
+    {
+      "id": 69,
+      "name": "Chirag Shah",
+      "email": "chirag.shah@example.com",
+      "phone": "9876500069",
+      "department": "Finance",
+      "position": "Finance Executive",
+      "salary": 47000
+    },
+    {
+      "id": 70,
+      "name": "Bhavya Mehta",
+      "email": "bhavya.mehta@example.com",
+      "phone": "9876500070",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "salary": 42000
+    },
+    {
+      "id": 71,
+      "name": "Ronak Patel",
+      "email": "ronak.patel@example.com",
+      "phone": "9876500071",
+      "department": "IT",
+      "position": "MERN Developer",
+      "salary": 63000
+    },
+    {
+      "id": 72,
+      "name": "Tanya Shah",
+      "email": "tanya.shah@example.com",
+      "phone": "9876500072",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 39000
+    },
+    {
+      "id": 73,
+      "name": "Yuvraj Mehta",
+      "email": "yuvraj.mehta@example.com",
+      "phone": "9876500073",
+      "department": "IT",
+      "position": "Backend Developer",
+      "salary": 59000
+    },
+    {
+      "id": 74,
+      "name": "Kritika Patel",
+      "email": "kritika.patel@example.com",
+      "phone": "9876500074",
+      "department": "HR",
+      "position": "HR Manager",
+      "salary": 61000
+    },
+    {
+      "id": 75,
+      "name": "Suresh Shah",
+      "email": "suresh.shah@example.com",
+      "phone": "9876500075",
+      "department": "Finance",
+      "position": "Finance Manager",
+      "salary": 68000
+    },
+    {
+      "id": 76,
+      "name": "Komal Mehta",
+      "email": "komal.mehta@example.com",
+      "phone": "9876500076",
+      "department": "Marketing",
+      "position": "Brand Manager",
+      "salary": 55000
+    },
+    {
+      "id": 77,
+      "name": "Abhishek Patel",
+      "email": "abhishek.patel@example.com",
+      "phone": "9876500077",
+      "department": "IT",
+      "position": "Software Engineer",
+      "salary": 56000
+    },
+    {
+      "id": 78,
+      "name": "Pallavi Shah",
+      "email": "pallavi.shah@example.com",
+      "phone": "9876500078",
+      "department": "Sales",
+      "position": "Sales Coordinator",
+      "salary": 37000
+    },
+    {
+      "id": 79,
+      "name": "Darsh Mehta",
+      "email": "darsh.mehta@example.com",
+      "phone": "9876500079",
+      "department": "IT",
+      "position": "React Developer",
+      "salary": 59000
+    },
+    {
+      "id": 80,
+      "name": "Nidhi Patel",
+      "email": "nidhi.patel@example.com",
+      "phone": "9876500080",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 41000
+    },
+    {
+      "id": 81,
+      "name": "Vivek Shah",
+      "email": "vivek.shah@example.com",
+      "phone": "9876500081",
+      "department": "Finance",
+      "position": "Senior Accountant",
+      "salary": 53000
+    },
+    {
+      "id": 82,
+      "name": "Shivani Mehta",
+      "email": "shivani.mehta@example.com",
+      "phone": "9876500082",
+      "department": "Marketing",
+      "position": "Marketing Manager",
+      "salary": 59000
+    },
+    {
+      "id": 83,
+      "name": "Rajveer Patel",
+      "email": "rajveer.patel@example.com",
+      "phone": "9876500083",
+      "department": "IT",
+      "position": "Full Stack Developer",
+      "salary": 64000
+    },
+    {
+      "id": 84,
+      "name": "Muskan Shah",
+      "email": "muskan.shah@example.com",
+      "phone": "9876500084",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 40000
+    },
+    {
+      "id": 85,
+      "name": "Aniket Mehta",
+      "email": "aniket.mehta@example.com",
+      "phone": "9876500085",
+      "department": "IT",
+      "position": "Web Developer",
+      "salary": 49000
+    },
+    {
+      "id": 86,
+      "name": "Sneha Patel",
+      "email": "sneha.patel@example.com",
+      "phone": "9876500086",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 40000
+    },
+    {
+      "id": 87,
+      "name": "Viral Shah",
+      "email": "viral.shah@example.com",
+      "phone": "9876500087",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "salary": 52000
+    },
+    {
+      "id": 88,
+      "name": "Hetal Mehta",
+      "email": "hetal.mehta@example.com",
+      "phone": "9876500088",
+      "department": "Marketing",
+      "position": "Content Manager",
+      "salary": 48000
+    },
+    {
+      "id": 89,
+      "name": "Maulik Patel",
+      "email": "maulik.patel@example.com",
+      "phone": "9876500089",
+      "department": "IT",
+      "position": "JavaScript Developer",
+      "salary": 51000
+    },
+    {
+      "id": 90,
+      "name": "Jhanvi Shah",
+      "email": "jhanvi.shah@example.com",
+      "phone": "9876500090",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "salary": 57000
+    },
+    {
+      "id": 91,
+      "name": "Kishan Mehta",
+      "email": "kishan.mehta@example.com",
+      "phone": "9876500091",
+      "department": "IT",
+      "position": "Backend Developer",
+      "salary": 58000
+    },
+    {
+      "id": 92,
+      "name": "Rupal Patel",
+      "email": "rupal.patel@example.com",
+      "phone": "9876500092",
+      "department": "HR",
+      "position": "HR Coordinator",
+      "salary": 37000
+    },
+    {
+      "id": 93,
+      "name": "Bhargav Shah",
+      "email": "bhargav.shah@example.com",
+      "phone": "9876500093",
+      "department": "Finance",
+      "position": "Accountant",
+      "salary": 45000
+    },
+    {
+      "id": 94,
+      "name": "Pinal Mehta",
+      "email": "pinal.mehta@example.com",
+      "phone": "9876500094",
+      "department": "Marketing",
+      "position": "SEO Executive",
+      "salary": 40000
+    },
+    {
+      "id": 95,
+      "name": "Hiren Patel",
+      "email": "hiren.patel@example.com",
+      "phone": "9876500095",
+      "department": "IT",
+      "position": "Software Developer",
+      "salary": 53000
+    },
+    {
+      "id": 96,
+      "name": "Roshni Shah",
+      "email": "roshni.shah@example.com",
+      "phone": "9876500096",
+      "department": "Sales",
+      "position": "Sales Executive",
+      "salary": 39000
+    },
+    {
+      "id": 97,
+      "name": "Darshan Mehta",
+      "email": "darshan.mehta@example.com",
+      "phone": "9876500097",
+      "department": "IT",
+      "position": "Frontend Developer",
+      "salary": 50000
+    },
+    {
+      "id": 98,
+      "name": "Monika Patel",
+      "email": "monika.patel@example.com",
+      "phone": "9876500098",
+      "department": "HR",
+      "position": "HR Executive",
+      "salary": 42000
+    },
+    {
+      "id": 99,
+      "name": "Hardik Shah",
+      "email": "hardik.shah@example.com",
+      "phone": "9876500099",
+      "department": "Finance",
+      "position": "Finance Executive",
+      "salary": 48000
+    },
+    {
+      "id": 100,
+      "name": "Anjali Mehta",
+      "email": "anjali.mehta@example.com",
+      "phone": "9876500100",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "salary": 44000
+    }
+  ]
+}
