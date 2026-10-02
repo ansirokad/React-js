@@ -22,7 +22,18 @@ This project fetches employee data from a JSON Server API and displays it in a r
 * HTML
 * CSS
 
+## 📂 Project Structure
 
+📂 db-server/
+- 📁 public/
+- 📁 src/
+    - 📄 App.jsx
+    - 📄 main.jsx
+- 🗄️ db.json
+- 📄 index.html
+- 📦 package.json
+- 🔒 package-lock.json
+- 📖 README.md
 
 ## Pagination
 
@@ -41,19 +52,6 @@ The user can navigate using:
 
 * **Pre** button
 * **Next** button
-
-## 📂 Project Structure
-
-📂 db-server/
-- 📁 public/
-- 📁 src/
-    - 📄 App.jsx
-    - 📄 main.jsx
-- 🗄️ db.json
-- 📄 index.html
-- 📦 package.json
-- 🔒 package-lock.json
-- 📖 README.md
 
 ## 📷 Screenshots
 
