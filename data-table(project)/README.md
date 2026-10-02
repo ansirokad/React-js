@@ -23,13 +23,6 @@ This project fetches employee data from a JSON Server API and displays it in a r
 * CSS
 
 
-## API
-
-The application uses the following JSON Server API:
-
-```text
-http://localhost:3000/employees
-```
 
 ## Pagination
 
