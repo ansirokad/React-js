@@ -64,9 +64,8 @@ The user can navigate using:
 
 ## 📷 Screenshots
 
-![Employee Details App](./public/screenshot.png)
+![Employee Details App](./employeeTable.png)
 
 ## 🔗 Video Link
 
-
-
+https://drive.google.com/file/d/1e26GiRSdoIfXqi2MFPI0UCHfkNBaCLTV/view?usp=sharing

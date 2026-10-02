@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 
-
 function App() {
 
   const API = "http://localhost:3000/employees";
   const [allData, setAllData] = useState([]);
-
 
   useEffect(() => {
     fetch(API, {
@@ -21,7 +19,7 @@ function App() {
 
   }, []);
 
-  const [perPages, setPerPages] = useState(10);
+  const [perPages, setPerPages] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalPages = Math.ceil(allData.length / perPages);
@@ -30,9 +28,6 @@ function App() {
   let firstIndex = lastIndex - perPages;
 
   const pagesData = allData.slice(firstIndex,lastIndex);
-
-
-
 
   return (
     <>
@@ -63,11 +58,11 @@ function App() {
                       return (
                         <tr key={index}>
                           <td>{element.id}</td>
-                          <td className="fw-semibold">{element.name}</td>
+                          <td style={{fontWeight : 600}}>{element.name}</td>
                           <td>{element.email}</td>
                           <td>{element.phone}</td>
                           <td>
-                            <span className=" bg-light text-dark border rounded-1 fw-semibold px-1 py-1" style={{fontSize: "11px"}}>
+                            <span  className=" bg-light text-dark border rounded-1 px-1 py-1" style={{fontSize: "11px",fontWeight : 700 }}>
                               {element.department}
                             </span>
                           </td>
@@ -87,7 +82,7 @@ function App() {
 
                         {/* Per Page */}
                         <div className="d-flex align-items-center gap-2">
-                          <span className="fw-semibold">Per Page Rows</span>
+                          <span style={{fontWeight : 600}}>Per Page Rows</span>
 
                           <select className=" form-select-sm w-auto" onChange={(e)=>{setPerPages(e.target.value); } }>
                             <option>5</option>
